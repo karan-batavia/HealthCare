@@ -4,8 +4,6 @@ public class Consultation {
     String doctorName;
     String doctorEmail;
     String patientEmail;
-    String personalEmail;
-    String patientName;
     String disease;
     String date;
     String price;
@@ -48,13 +46,6 @@ public class Consultation {
         this.patientEmail = patientEmail;
     }
 
-    public void setPersonalEmail(String personalEmail) {
-        this.personalEmail = personalEmail;
-    }
-
-    public void setPatientName(String patientName) {
-        this.patientName = patientName;
-    }
 
     public String getDisease() {
         return disease;
